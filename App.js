@@ -35,10 +35,10 @@ const App = () => {
                 screenOptions={{
                     headerShown: false
                 }}
-                initialRouteName={'Home'}
+                initialRouteName={'HomeTabs'}
             >
                 {/* Tabs */}
-                <Stack.Screen name="Home" component={Tabs} />
+                <Stack.Screen name="HomeTabs" component={Tabs} />
 
                 {/* Screens */}
                 <Stack.Screen name="PlantDetail" component={PlantDetail} options={{ headerShown: false }} />
